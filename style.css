@@ -283,7 +283,22 @@ li:hover {
 footer {
   background: url(img/footer.svg);
   max-width: 100%;
-  height: 91px;
+  height: 46px;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 0;
+  padding: 13px;
+}
+
+footer p a {
+  color: #2525fa;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
