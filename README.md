@@ -2,7 +2,7 @@
   <img src="img/logo.svg">
 </h1>
 
-<h1>
+<h1 align="center">
   <img src="img/blog-redeme.gif">
 </h1>
 
