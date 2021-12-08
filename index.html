@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Aida - Diário Aberto</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <img
+      src="img/logo.svg"
+      class="logotipo"
+      alt="Logotipo do Blog Aida diário aberto."
+    />
+
+    <div id="linha-horizontal"></div>
+
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#infancia">Infância</a>
+        </li>
+        <li>
+          <a href="#juventude">Juventude</a>
+        </li>
+        <li>
+          <a href="#vida-adulta">Vida Adulta</a>
+        </li>
+        <li>
+          <a href="#atualidade">Atualidade</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-capa" >
+      <section>
+        <h1 class="bem-vindo">Bem-Vindes ao meu Diário Aberto!!!</h1>
+  
+        <hr id="line-header"></hr>
+  
+        <div class="text-header">
+          <h1>Bem-Vindes ao meu Diário Aberto!!!</h1>
+          <p id="text"> 
+            Bom, como todo diário.. aqui você vai encontrar toda história da minha vida, desde a minha infância (partes que me lembro e também o que já me contaram), também vai saber sobre cada detalhe da minha juventude (quantos crush eu já tive?). Depois encontrará a minha vide depois dos 18 (luta atrás de luta) e também atualidades do ano inteiro, tudo o que eu sentir e viver.
+          </p>
+        </div>
+      </section>
+    </div>
+    
+    <section class="ultimasPostagens">
+      <h2>Últimas Postagens</h2>
+
+      <hr id="line-postagens"></hr>
+      
+      <ul>
+        <li>
+          <img class="thaisOculos" src="img/thaisOculos.JPG" alt="Thais usando óculos." >
+          <h3>
+            04 de Novembro de 2022
+          </h3>
+          <p>
+            "Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor..."
+          </p>
+        </li>
+        <li>
+          <img class="thaisDesenho" src="img/thaisDesenho.jpeg" alt="Pintura de Thais." >
+          <h3>
+            10 de Outubro de 2022
+          </h3>
+          <p>
+            "Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor..."
+          </p>
+        </li>
+        <li>
+          <img class="thaisViagem" src="img/thaisViagem.jpeg" alt="Thais com uma paisagem de praia atrás.">
+          <h3>
+            18 de Dezembro de 2022
+          </h3>
+          <p>
+            "Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor..."
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="background-rosa">
+
+      <h3>Por onde começar ? Vemk que vou te da umas dicas!!</h3>
+      <hr id="separador-tempo"></hr>
+      <img class="linha-do-tempo" src="img/linha-do-tempo.svg" alt="Linha do tempo">
+   </section>
+
+   <section class="contato">
+    <h4>Bate-Papo!</h4>
+    <hr id="separador-contato"></hr>
+    <!-- <p>
+      Quer contar algo pra mim? Deixar uma mensagem, elogio, algo que posso melhorar ou quer entender algum trecho que não esteja claro pra você? Vemk, pode ficar a vontade! ;)
+    </p> -->
+
+      <form>
+        <div class="nome">
+          <label  for="nome">Nome:</label>
+          <input id="nome" type="text" />
+        </div>
+            
+        <div class="email">
+          <label for="email">E-mail:</label>
+          <input id="email" type="email" placeholder="seuemail@gmail.com" />
+        </div>
+        
+        <div class="tel">
+          <label for="tel">WhatsApp:</label>
+          <input id="tel" type="tel" placeholder="(00) 99999-9999" />
+        </div>
+        
+        <div class="local">
+          <label for="local">De onde você é?</label>
+            <select id="local">
+              <option>RJ</option>
+              <option>SP</option>
+              <option>RR</option>
+              <option>AP</option>
+              <option>AM</option>
+              <option>PA</option>
+              <option>AC</option>
+              <option>RO</option>
+              <option>TO</option>
+              <option>MA</option>
+              <option>PI</option>
+              <option>CE</option>
+              <option>RN</option>
+              <option>PB</option>
+              <option>PE</option>
+              <option>AL</option>
+              <option>SE</option>
+              <option>BA</option>
+              <option>MT</option>
+              <option>DF</option>
+              <option>GO</option>
+              <option>MS</option>
+              <option>MG</option>
+              <option>ES</option>
+              <option>PR</option>
+              <option>SC</option>
+              <option>RS</option>
+            </select>
+        </div>
+
+        <div class="mensagem">
+          <label for="mensagem">Desabafa:</label>
+          <textarea id="mensagem" name="mensagem" rows="10"></textarea>
+        </div>
+
+
+        <button id="botaoEnviar">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+ 
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

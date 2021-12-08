@@ -1,0 +1,310 @@
+body {
+  text-align: center;
+  font-family: Mali, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #444444;
+  margin: 0 auto;
+}
+.logotipo {
+  width: 334px;
+  height: 151px;
+  margin-top: 85px;
+}
+
+#linha-horizontal {
+  background-color: #e18d8c;
+  height: 5px;
+  max-width: 100%;
+  margin-top: 85px;
+}
+
+.menu ul {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0px 89px;
+}
+
+.menu ul li a {
+  color: #444444;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-capa {
+  background: url(img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 100px 0;
+  padding-top: 163px;
+  background-color: #f5f5f5;
+  margin-top: 55px;
+}
+
+.header-capa h1 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.header-capa p {
+  font-weight: 300;
+}
+
+#line-header {
+  position: relative;
+  background-color: #ff9e9e;
+  width: 601px;
+  height: 1px;
+  left: 0;
+  right: 0;
+  border: none;
+  margin-top: 30px;
+}
+
+.text-header {
+  position: relative;
+  display: inline-block;
+  margin-top: 34px;
+  max-width: 55%;
+}
+.ultimasPostagens {
+  background: url(img/fundo-rosa.svg);
+  padding: 65px 0;
+}
+
+.ultimasPostagens h2 {
+  margin-top: 65px;
+  margin-bottom: 0;
+  color: #444444;
+  font-size: 30px;
+  display: block;
+  font-weight: 400;
+}
+
+#line-postagens {
+  background-color: #ff9e9e;
+  width: 66px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  border: none;
+  margin-top: 15px;
+}
+
+.ultimasPostagens h3 {
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.ultimasPostagens ul {
+  display: flex;
+  line-height: 1.3;
+  margin-top: 55px;
+  list-style: none;
+  justify-content: center;
+}
+
+.ultimasPostagens ul li {
+  margin: 0 50px;
+}
+
+.ultimasPostagens ul li img {
+  /* width: 342px; */
+  height: 308px;
+}
+
+.ultimasPostagens ul li p {
+  max-width: 100%;
+  margin-left: 15px;
+  text-align: left;
+  color: #444444;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.background-rosa h3 {
+  margin: 65px 0px 0px 0px;
+}
+
+#separador-tempo {
+  position: absolute;
+  background-color: #ff9e9e;
+  width: 66px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.linha-do-tempo {
+  margin-top: 80px;
+  margin-bottom: 65px;
+}
+
+.contato {
+  background: url(img/fundo-rosa.svg);
+  padding: 65px;
+}
+
+h4 {
+  font-size: 30px;
+  max-width: 70%;
+  font-weight: 400;
+}
+
+.contato h4 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#separador-contato {
+  position: absolute;
+  background-color: #ff9e9e;
+  width: 66px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+form {
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+#nome {
+  font-family: Mali, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 100%;
+  width: 100%;
+  height: 30px;
+}
+
+.nome {
+  margin-bottom: 15px;
+}
+
+#email {
+  font-family: Mali, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 100%;
+  width: 100%;
+  height: 30px;
+}
+
+.email {
+  margin-bottom: 15px;
+}
+
+#tel {
+  font-family: Mali, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 100%;
+  width: 100%;
+  height: 30px;
+}
+
+.tel {
+  margin-bottom: 15px;
+}
+
+#local {
+  max-width: 50%;
+  font-size: 14px;
+  font-weight: 400;
+  border-color: #444444;
+  padding: 3px;
+  height: 40px;
+  width: 10%;
+}
+
+.local {
+  margin-bottom: 15px;
+}
+
+#mensagem {
+  font-family: Mali, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 100%;
+  width: 100%;
+}
+
+.mensagem {
+  margin-bottom: 15px;
+}
+
+button {
+  max-width: 20%;
+  font-family: Mali, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background: #00fa7d;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 10px 30px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: url(img/footer.svg);
+  max-width: 100%;
+  height: 91px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #ff9e9e;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .text-header {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .header-capa section h1.bem-vindo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .text-header h1 {
+    display: none;
+  }
+}
