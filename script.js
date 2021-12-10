@@ -13,9 +13,9 @@ document
 function validaFormulario() {
   var nome = document.getElementById('nome').value
   var email = document.getElementById('email').value
-  var telefone = document.getElementById('telefone').value
+  var tel = document.getElementById('tel').value
 
-  if (nome != '' && email != '' && telefone != '') {
+  if (nome != '' && email != '' && tel != '') {
     alert('Prontinho! Você receberá as novidades por email.')
   } else {
     alert('Por favor, preencha os campos de nome, email e telefone.')
