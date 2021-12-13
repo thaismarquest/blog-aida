@@ -59,7 +59,7 @@ h1 {
   font-size: 45px;
 }
 
-.header-capa p {
+p {
   font-weight: 300;
 }
 
@@ -74,11 +74,12 @@ h1 {
   margin-top: 30px;
 }
 
-.text-header {
+.text-header p {
   position: relative;
   display: inline-block;
   margin-top: 34px;
   max-width: 55%;
+  font-size: 20px;
 }
 
 .ultimasPostagens {
@@ -105,7 +106,7 @@ h1 {
 }
 
 .ultimasPostagens h3 {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0px;
   font-size: 25px;
 }
@@ -134,6 +135,7 @@ h1 {
   color: #444444;
   margin-top: 10px;
   font-weight: 300;
+  font-size: 20px;
 }
 
 .background-rosa {
@@ -301,9 +303,73 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Pagina Infancia */
+
+.infancia {
+  background: url(img/fundo-infancia.svg);
+  margin-top: 65px;
+}
+
+.infancia h1 {
+  margin: 0;
+  padding-top: 79px;
+}
+
+.infancia p {
+  font-size: larger;
+  max-width: 60%;
+  margin: 25px auto;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.text-infancia {
+  padding-bottom: 55px;
+}
+
+#separador-infancia {
+  background-color: #ff9e9e;
+  width: 66px;
+  height: 4px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+
+#comentario {
+  font-family: Mali, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 100%;
+  width: 60%;
+}
+
+.comentario-infancia {
+  margin-top: 65px;
+}
+
+.comentario-infancia h2 {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#disqus_thread {
+  width: 60% !important;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+#community-tab {
+  display: none !important;
+}
+
+/* media query */
 @media screen and (max-width: 600px) {
   body {
-    background-color: #ff9e9e;
+    background-color: #f5f5f5;
   }
 }
 
