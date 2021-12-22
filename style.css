@@ -12,7 +12,7 @@ body {
 }
 
 #linha-horizontal {
-  background-color: #e18d8c;
+  background-color: #9b0000;
   height: 5px;
   max-width: 100%;
   margin-top: 85px;
@@ -66,9 +66,9 @@ p {
 
 #line-header {
   position: relative;
-  background-color: #ff9e9e;
-  width: 601px;
-  height: 1px;
+  background-color: #9b0000;
+  width: 450px;
+  height: 2px;
   left: 0;
   right: 0;
   border: none;
@@ -97,7 +97,7 @@ p {
 }
 
 #line-postagens {
-  background-color: #ff9e9e;
+  background-color: #9b0000;
   width: 66px;
   height: 4px;
   left: 0;
@@ -125,8 +125,8 @@ p {
 }
 
 .ultimasPostagens ul li img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .ultimasPostagens ul li p {
@@ -151,7 +151,7 @@ h3 {
 
 #separador-tempo {
   position: absolute;
-  background-color: #ff9e9e;
+  background-color: #9b0000;
   width: 66px;
   height: 4px;
   left: 0;
@@ -183,7 +183,7 @@ h4 {
 
 #separador-contato {
   position: absolute;
-  background-color: #ff9e9e;
+  background-color: #9b0000;
   width: 66px;
   height: 4px;
   left: 0;
@@ -290,6 +290,7 @@ footer {
 }
 
 footer p {
+  color: #ffffff;
   font-size: 15px;
   font-weight: 300;
   margin-top: 0;
@@ -297,7 +298,7 @@ footer p {
 }
 
 footer p a {
-  color: #2525fa;
+  color: #eeebdd;
 }
 
 a:hover {
@@ -333,7 +334,7 @@ a:hover {
 }
 
 #separador-infancia {
-  background-color: #ff9e9e;
+  background-color: #9b0000;
   width: 66px;
   height: 4px;
   border: none;
@@ -388,7 +389,7 @@ a:hover {
 }
 
 #separador-juventude {
-  background-color: #ff9e9e;
+  background-color: #9b0000;
   width: 66px;
   height: 4px;
   border: none;
@@ -430,7 +431,7 @@ a:hover {
 }
 
 #separador-vidaAdulta {
-  background-color: #ff9e9e;
+  background-color: #9b0000;
   width: 66px;
   height: 4px;
   border: none;
