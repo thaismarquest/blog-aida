@@ -125,7 +125,7 @@ p {
 }
 
 .ultimasPostagens ul li img {
-  width: 250px;
+  /* width: 250px; */
   height: 250px;
 }
 
@@ -489,7 +489,7 @@ a:hover {
 }
 
 #bloco-2 {
-  padding-left: 50%;
+  padding-right: 50%;
 }
 
 #bloco-3 {
