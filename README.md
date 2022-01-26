@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  <img src="img/blog-readme.gif">
+  <img src="">
 </h1>
 
 <h3 align="center">
