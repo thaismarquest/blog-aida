@@ -682,8 +682,9 @@ a:hover {
 
 #bloco-1 {
   padding-right: 50%;
-  margin: 55px 0px 55px 100px;
+  margin: 25px 0px 55px 100px;
   list-style: none;
+  padding-bottom: 55px;
 }
 
 /* Pagina ano2022 */
