@@ -606,6 +606,96 @@ a:hover {
   margin: 0 auto;
 }
 
+/* Pagina Atualidade */
+
+.atualidade {
+  background: url(img/fundo-vidaadulta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  margin-top: 65px;
+  padding-top: 55px;
+}
+
+.atualidade h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#separador-atualidade {
+  background-color: #9b0000;
+  width: 66px;
+  height: 4px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+
+.atualidade ul {
+  display: inline;
+}
+
+.atualidade img {
+  /* width: 300px; */
+  height: 300px;
+  left: 0;
+  right: 0;
+}
+
+.atualidade h3 {
+  margin-left: 0;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.atualidade p {
+  margin-left: 30px;
+  margin-top: 10px;
+  text-align: left;
+  width: 500px;
+}
+
+.conteudo {
+  display: table;
+}
+
+.imagem {
+  display: table-cell;
+  float: left;
+}
+
+.titulo {
+  color: #444444;
+  display: table-cell;
+  float: left;
+  width: 320px;
+}
+
+.texto {
+  color: #444444;
+  display: table-cell;
+  float: left;
+  width: 320px;
+}
+
+#bloco-1 {
+  padding-right: 50%;
+  margin: 55px 0px 55px 100px;
+  list-style: none;
+}
+
+#disqus_thread {
+  width: 60% !important;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+#community-tab {
+  display: none !important;
+}
+
 /* media query */
 @media screen and (max-width: 600px) {
   body {
