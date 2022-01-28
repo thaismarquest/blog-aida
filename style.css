@@ -508,12 +508,14 @@ a:hover {
 }
 
 .titulo {
+  color: #444444;
   display: table-cell;
   float: left;
   width: 320px;
 }
 
 .texto {
+  color: #444444;
   display: table-cell;
   float: left;
   width: 320px;
